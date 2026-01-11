@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="w-full h-[100vh] bg-[#151A28]">
+        <div class="container max-w-[1140px] w-[90%] m-auto">
+        <div class="formWrapper pt-[40px] flex flex-col gap-[20px]">
+            <form id="form">
+                <input id="searchInput" type="text" placeholder="Şəkil Axtar..." class="w-full py-[5px] px-[10px] border-[2px] border-solid border-[white] focus:outline-none text-white placeholder-[white]">
+            </form>
+            <div class="buttonWraper flex gap-[20px]">
+                    <button id="searchButton" form="form" class="w-[50%] py-[5px] border-[1px] border-solid border-[green] bg-[green] text-white text-[18px] font-[500] hover:scale-[1.01]">Axtar</button>
+                    <button id="clearButton" class="w-[50%] py-[5px] border-[1px] border-solid border-[red] bg-[red] text-white text-[18px] font-[500] hover:scale-[1.01]">Təmizlə</button>
+                </div>
+        </div>
+    </div>
+    <div id="imageWrapper" class="imageWrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[20px] px-[20px] pt-[100px]">
+        <!-- <img class="w-full h-[200px] object-cover hover:scale-[1.01] duration-[500ms]" src="https://hips.hearstapps.com/hmg-prod/images/ferrari-e-suv-2-copy-680287cac36b2.jpg?crop=1.00xw:0.838xh;0,0.0673xh"> -->
+    </div>
+
+
+
+   
+    <script src="app.js"></script>
+</body>
+</html>
